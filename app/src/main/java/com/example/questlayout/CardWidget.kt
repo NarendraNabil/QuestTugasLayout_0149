@@ -133,4 +133,35 @@ fun UmyAppScreen(modifier: Modifier = Modifier) {
                 .padding(horizontal = 16.dp)
                 .verticalScroll(rememberScrollState()),
             verticalArrangement = Arrangement.spacedBy(12.dp)
+        ) {
+            StudentCardWidget(
+                nameRes = R.string.nama_siswa_1,
+                phoneRes = null,
+                locationRes = R.string.lokasi_siswa_1,
+                bgColorRes = R.color.card_gray,
+                isCursiveFont = true
+            )
 
+            StudentCardWidget(
+                nameRes = R.string.nama_siswa_2,
+                phoneRes = R.string.no_hp_siswa_2,
+                locationRes = R.string.lokasi_siswa_2,
+                bgColorRes = R.color.card_purple
+            )
+
+            StudentCardWidget(
+                nameRes = R.string.nama_siswa_3,
+                phoneRes = R.string.no_hp_siswa_3,
+                locationRes = R.string.lokasi_siswa_3,
+                bgColorRes = R.color.card_blue
+            )
+
+            StudentCardWidget(
+                nameRes = R.string.nama_siswa_4,
+                phoneRes = R.string.no_hp_siswa_4,
+                locationRes = R.string.lokasi_siswa_4,
+                bgColorRes = R.color.card_green
+            )
+        }
+
+ 
