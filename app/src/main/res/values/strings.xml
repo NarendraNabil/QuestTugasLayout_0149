@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">questlayout</string>
+
+    <string name="header_title">Teknologi Informasi</string>
 </resources>
