@@ -9,13 +9,13 @@
     <string name="nama_siswa_1">Tri Ageng</string>
     <string name="lokasi_siswa_1">Kaiti, Sleman</string>
 
-
     <string name="nama_siswa_2">Fadlan Agya</string>
     <string name="no_hp_siswa_2">087364782</string>
     <string name="lokasi_siswa_2">Srimulyo, Bantul</string>
 
     <string name="nama_siswa_3">Hita Kiye</string>
     <string name="no_hp_siswa_3">085908520</string>
+    <string name="lokasi_siswa_3">Tri Sakti, Bantul</string>
 
     <string name="nama_siswa_4">Muhammad Fikri</string>
     <string name="no_hp_siswa_4">0877647589</string>
