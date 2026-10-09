@@ -36,4 +36,18 @@ fun StudentCardWidget(
                     .weight(1f)
                     .padding(horizontal = 12.dp),
                 horizontalAlignment = Alignment.Start
-            ) {
+            ) {Text(
+                text = stringResource(id = nameRes),
+                color = colorResource(id = R.color.text_white),
+                fontSize = 18.sp,
+                fontFamily = if (isCursiveFont) {
+                    FontFamily.Cursive
+                } else {
+                    FontFamily.Default
+                },
+                fontWeight = if (isCursiveFont) {
+                    FontWeight.Normal
+                } else {
+                    FontWeight.Bold
+                }
+            )
