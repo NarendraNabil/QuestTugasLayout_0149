@@ -107,7 +107,6 @@ fun StudentCardWidget(
     }
 }
 
-
 @Composable
 fun UmyAppScreen(modifier: Modifier = Modifier) {
     Column(
