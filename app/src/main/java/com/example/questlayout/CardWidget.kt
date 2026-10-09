@@ -16,3 +16,11 @@ fun StudentCardWidget(
         colors = CardDefaults.cardColors(
             containerColor = colorResource(id = bgColorRes)
         )
+    ) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(12.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.SpaceBetween
+        ) {
