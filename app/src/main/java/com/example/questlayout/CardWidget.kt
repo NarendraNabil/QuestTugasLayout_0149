@@ -9,3 +9,10 @@ fun StudentCardWidget(
     @StringRes locationRes: Int,
     @ColorRes bgColorRes: Int,
     isCursiveFont: Boolean = false
+) {
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        shape = RoundedCornerShape(16.dp),
+        colors = CardDefaults.cardColors(
+            containerColor = colorResource(id = bgColorRes)
+        )
