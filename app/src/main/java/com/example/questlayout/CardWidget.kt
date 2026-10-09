@@ -51,3 +51,12 @@ fun StudentCardWidget(
                     FontWeight.Bold
                 }
             )
+
+                if (phoneRes != null) {
+                    Text(
+                        text = stringResource(id = phoneRes),
+                        color = colorResource(id = R.color.text_cyan),
+                        fontSize = 12.sp,
+                        fontWeight = FontWeight.Medium
+                    )
+                }
