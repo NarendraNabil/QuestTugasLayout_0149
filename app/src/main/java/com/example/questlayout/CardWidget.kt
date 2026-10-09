@@ -100,3 +100,14 @@ fun StudentCardWidget(
         }
     }
 }
+
+
+@Composable
+fun UmyAppScreen(modifier: Modifier = Modifier) {
+    Column(
+        modifier = modifier
+            .fillMaxSize()
+            .background(colorResource(id = R.color.bg_screen))
+            .padding(top = 48.dp, bottom = 16.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
+    
