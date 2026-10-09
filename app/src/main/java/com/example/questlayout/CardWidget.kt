@@ -110,4 +110,19 @@ fun UmyAppScreen(modifier: Modifier = Modifier) {
             .background(colorResource(id = R.color.bg_screen))
             .padding(top = 48.dp, bottom = 16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
-    
+    ) {
+        Text(
+            text = stringResource(id = R.string.header_title),
+            fontSize = 22.sp,
+            fontWeight = FontWeight.Bold,
+            color = colorResource(id = R.color.text_black)
+        )
+
+        Text(
+            text = stringResource(id = R.string.header_subtitle),
+            fontSize = 14.sp,
+            fontWeight = FontWeight.Bold,
+            color = colorResource(id = R.color.text_dark_gray)
+        )
+
+        Spacer(modifier = Modifier.height(24.dp))
