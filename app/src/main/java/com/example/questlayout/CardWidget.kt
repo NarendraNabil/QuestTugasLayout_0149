@@ -24,3 +24,16 @@ fun StudentCardWidget(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = stringResource(id = R.string.cd_logo),
+                modifier = Modifier.size(50.dp)
+            )
+        }
+
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(horizontal = 12.dp),
+                horizontalAlignment = Alignment.Start
+            ) {
